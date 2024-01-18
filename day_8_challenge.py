@@ -6,7 +6,8 @@ def count_letter(str):
     no_lower = re.sub("[a-z]", "", str)
     caps = len(str) - len(no_caps)
     lower = len(str) - len(no_lower)
-    print(f"The string has {caps} capital letters and {lower} lower case letters.")
+    return caps, lower
 
 str = input("Provide a string that I can count capital and lower case letters from:\n")
-count_letter(str)
+uppercase, lowercase = count_letter(str)
+print(f"The string has {uppercase} capital letters and {lowercase} lower case letters.")
