@@ -8,11 +8,12 @@ def print_fibonacci(n):
     if n == 0:
         return
     elif n == 1:
-        print(y)
+        print(x)
         return
     else:
+        print(x)
         print(y)
-        for i in range ( 2, n + 1):
+        for i in range ( 3, n + 1):
             print ( x + y )
             new_y = x + y
             x = y
