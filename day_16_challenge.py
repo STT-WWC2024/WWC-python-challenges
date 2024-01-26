@@ -1,8 +1,11 @@
 # Write a function that counts the frequency of each word in a sentence.
 
+import re
+
 def count_unique(str):
     unique_words = []
-    string_words = str.split()
+    no_punctuation_string = re.sub(r'[^\w\s]', '', str)
+    string_words = no_punctuation_string.split()
     for item in string_words:
         if unique_words.count(item) == 0:
             unique_words.append(item)
