@@ -2,7 +2,7 @@
 
 number_list = []
 add_to_list = ""
-prompt = "Enter a number:, anything other than a number to exit number entry: "
+prompt = "Enter a number or q to exit number entry: "
 
 while add_to_list != 'q':
     try:
