@@ -2,7 +2,4 @@
 
 list_nums = [1, 2, 3, 4, 5]
 
-square_num = lambda x: x**2
-
-for item in list_nums:
-    print(square_num(item))
+print(list(map(lambda x: x**2, list_nums)))
