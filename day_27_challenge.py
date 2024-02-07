@@ -2,4 +2,4 @@
 
 string_list = input("Enter a series of words separated by spaces\n").split()
 
-print(sorted(string_list))
+print(sorted(string_list, key=lambda x: x.lower()))
