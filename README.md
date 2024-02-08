@@ -28,3 +28,4 @@
 26. Create a program that uses a lambda function to square each element of a list.
 27. Create a program that sorts a list of strings alphabetically.
 28. Create a program that removes the nth element from a list.
+29. Create a function that generates a random number between a given range.
