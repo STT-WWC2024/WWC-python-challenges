@@ -31,3 +31,4 @@
 29. Create a function that generates a random number between a given range.
 30. Create a function that finds the second smallest element in a list.
 31. Create a program that checks if a given string is a valid email address.
+32. Create a function that calculates the average of a list of numbers.
