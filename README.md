@@ -36,3 +36,5 @@
 34. Write a Python program to merge two dictionaries.
 35. Write a simple unit test for a function that adds two numbers.
 36. Write a Python program to check if two strings are anagrams.
+37. Write a program to iterate through a dictionary and print its keys and values.
+38. Write a program to flatten a nested list.
