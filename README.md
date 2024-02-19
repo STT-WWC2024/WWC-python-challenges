@@ -38,3 +38,5 @@
 36. Write a Python program to check if two strings are anagrams.
 37. Write a program to iterate through a dictionary and print its keys and values.
 38. Write a program to flatten a nested list.
+39. Write a program to find the most common words in a text file.
+40. Write a function to find the largest common divisor of two numbers using a function.
