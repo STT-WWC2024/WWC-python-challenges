@@ -43,3 +43,6 @@
 41. Write a program that uses recursion to generate all permutations of a list.
 42. Write a program that uses a try-except block to handle division by zero.
 43. Write a program that removes all whitespaces from a given string.
+44. Write a program that reads an integer from the user and handles invalid inputs.
+45. Write a function to check if a number is a prime number.
+46. Write a function to check if a given list is sorted.
