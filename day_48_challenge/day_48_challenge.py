@@ -1,20 +1,20 @@
 # Create a program that replaces specific words in a text with their synonyms.
 
 from nltk.corpus import wordnet
+import random
 
 file = open("sample.txt")
 sample_text = file.read()
-to_replace = "travel"
-synonyms = []
+word_to_replace = "travel"
 
-for syn in wordnet.synsets(to_replace):
-    for lm in syn.lemmas():
-        if lm.name() != to_replace:
-             synonyms.append(lm.name())
+def find_synonym(word_to_replace):
+    synonyms = []
+    for syn in wordnet.synsets(word_to_replace):
+        for lm in syn.lemmas():
+            if lm.name() != word_to_replace:
+                synonyms.append(lm.name())
+    return(random.choice(synonyms))
 
-print(f"Synonyms for {to_replace}: {synonyms}")
+new_word = find_synonym(word_to_replace)
 
-for word in synonyms:
-    print(f"\nsynonym = {word}:")
-    new_sentence = sample_text.replace(to_replace, word)
-    print(new_sentence)
+print(f'New text replacing "{word_to_replace}" with "{new_word}":\n{sample_text.replace(word_to_replace, new_word)}')
