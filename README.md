@@ -50,3 +50,6 @@
 48. Create a program that replaces specific words in a text with their synonyms.
 49. Create a program that implements the bubble sort algorithm.
 50. Create a program that finds the intersection and union of two sets.
+51. Create a program that counts the occurrences of each word in a text file.
+52. Create a program that checks if a string is a palindrome.
+53. Create a program that allows users to draw on a canvas using a GUI.
