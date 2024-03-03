@@ -18,13 +18,8 @@ for word in words:
     else:
         word_counts[word] = 1
 
-# sort values and put top x values in another dictionary
-# sorted_word_counts = sorted(word_counts.values())
-
-# for i in range(1, len(sorted_word_counts)):
-#     count_key = [key for key, val in word_counts.items() if val == sorted_word_counts[-(i)]]
-#     for key in count_key:
-#         top_words[key] = sorted_word_counts[-(i)]
+sorted_words = sorted(word_counts.items(), key=lambda x:x[1], reverse=True)
 
 print(f"Count of each word in file:")
-print(word_counts)
+for key, value in sorted_words:
+    print((key,value))
