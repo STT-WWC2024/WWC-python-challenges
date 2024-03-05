@@ -54,3 +54,4 @@
 52. Create a program that checks if a string is a palindrome.
 53. Create a program that allows users to draw on a canvas using a GUI.
 54. Create a function to find all words in a sentence that start with a vowel.
+55. Create a function that takes a string and returns the reverse of each word.
