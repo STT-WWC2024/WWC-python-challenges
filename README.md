@@ -59,3 +59,4 @@
 57. Create a function that returns the key with the maximum value in a dictionary.
 58. Create a function that converts a string to an integer and handles ValueError.
 59. Create a function that checks if a number is a perfect square.
+60. Create a class representing a simple bank account with deposit and withdraw methods.
