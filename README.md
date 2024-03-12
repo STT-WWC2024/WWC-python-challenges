@@ -60,3 +60,4 @@
 58. Create a function that converts a string to an integer and handles ValueError.
 59. Create a function that checks if a number is a perfect square.
 60. Create a class representing a simple bank account with deposit and withdraw methods.
+61. Create a program to implement a stack using a list.
